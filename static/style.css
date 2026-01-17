@@ -1,0 +1,17 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+    background: white;
+}
+
+button {
+    font-weight: bold;
+}
+
+.alert {
+    font-size: 18px;
+    border-radius: 10px;
+}
