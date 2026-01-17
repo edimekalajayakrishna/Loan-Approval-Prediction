@@ -3,9 +3,9 @@ LOAN APPROVAL PREDICTION
 This project is part of my data science portfolio. It uses machine learning to predict loan approval and includes a web application for real-time predictions. After testing 3 different algorithms, the best accuracy on the leaderboard was achieved by Logistic Regression (78.47%), followed by RandomForest (77.78%), while Decision Tree performed the worst (64.58%).
 
 
-================================================================================
+
 PROJECT OVERVIEW
-================================================================================ 
+
 
 This project covers the entire machine learning pipeline:
 
@@ -18,9 +18,9 @@ This project covers the entire machine learning pipeline:
 7. Web Application Deployment
 
 
-================================================================================
+
 PROBLEM STATEMENT
-================================================================================
+
 
 BUSINESS PROBLEM
 
@@ -33,9 +33,7 @@ ML PROBLEM FORMULATION
 This is a classification problem where we have to predict whether a loan will be approved or not. Specifically, it is a binary classification problem where we have to predict either one of the two classes given i.e. approved (1) or not approved (0). The dependent variable or target variable is the Loan_Status, while the rest are independent variables or features. We need to develop a model using the features to predict the target variable.
 
 
-================================================================================
 KEY FEATURES
-================================================================================
 
 KEY FEATURES
 
@@ -47,9 +45,7 @@ Production-Ready with scikit-learn 1.7.0
 Easy-to-use HTML and CSS frontend
 
 
-================================================================================
 TECHNOLOGY STACK
-================================================================================
 
 Machine Learning: scikit-learn, Logistic Regression, Pandas, NumPy
 Backend Framework: Flask
@@ -59,9 +55,7 @@ Model Storage: Pickle files (.pkl)
 Development Environment: Jupyter Notebook
 
 
-================================================================================
 HOW IT WORKS
-================================================================================
 
 1. User fills the loan application form on the web interface
 2. Flask backend receives the form data
@@ -70,9 +64,9 @@ HOW IT WORKS
 5. Result (Approved or Rejected) is displayed to the user
 
 
-================================================================================
+
 INSTALLATION
-================================================================================
+
 
 PREREQUISITES
 
@@ -106,9 +100,10 @@ STEP 4: INSTALL DEPENDENCIES
 pip install -r requirements.txt
 
 
-================================================================================
+
+
 USAGE
-================================================================================
+
 
 STEP 1: RUN THE FLASK APPLICATION
 
@@ -142,9 +137,9 @@ STEP 4: GET PREDICTION
 Click Submit button to get the loan approval prediction (Approved or Rejected)
 
 
-================================================================================
+
 MODEL PERFORMANCE
-================================================================================
+
 
 ALGORITHM COMPARISON RESULTS
 
@@ -155,9 +150,7 @@ Decision Tree: 64.58% accuracy
 Logistic Regression was selected for deployment due to superior accuracy and model simplicity.
 
 
-================================================================================
 DATASET INFORMATION
-================================================================================
 
 Training Data: trainloan.csv
 Test Data: testloan.csv
@@ -187,9 +180,7 @@ TARGET VARIABLE
 Loan_Status (1 = Approved, 0 = Rejected)
 
 
-================================================================================
 TROUBLESHOOTING
-================================================================================
 
 ISSUE: InconsistentVersionWarning from scikit-learn
 
@@ -223,9 +214,7 @@ Error Message: "FileNotFoundError: loan_pipeline.pkl"
 Solution: Ensure loan_pipeline.pkl and feature_columns.pkl are in the project root directory
 
 
-================================================================================
 MODEL RETRAINING
-================================================================================
 
 To retrain the model with new data:
 
@@ -241,9 +230,7 @@ To retrain the model with new data:
 5. The Flask app will automatically use the updated model
 
 
-================================================================================
 PROJECT FILES
-================================================================================
 
 app.py                      Main Flask application
 loanprediction.ipynb        Jupyter Notebook for model training
@@ -258,16 +245,12 @@ templates/index.html        Web form interface
 static/style.css            CSS styling
 
 
-================================================================================
 LICENSE
-================================================================================
 
 This project is open source and available for educational purposes.
 
 
-================================================================================
 AUTHOR
-================================================================================
 
 Jaya Krishna
 GitHub: https://github.com/edimekalajayakrishna
@@ -275,9 +258,7 @@ GitHub: https://github.com/edimekalajayakrishna
 Portfolio: This project is part of a data science portfolio demonstrating machine learning model development, data preprocessing, model evaluation, and web application deployment.
 
 
-================================================================================
 SUPPORT
-================================================================================
 
 For issues, questions, or suggestions, please open a GitHub issue in the repository.
 
@@ -288,9 +269,7 @@ For bug reports, please include:
 - Steps to reproduce the issue
 
 
-================================================================================
 ACKNOWLEDGMENTS
-================================================================================
 
 Analytics Vidhya: For the original hackathon and dataset
 scikit-learn: For the machine learning library
